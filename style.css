@@ -1,0 +1,433 @@
+/* DEEKTOP DESIGN */
+
+* {
+  margin: 0;  
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    margin: 3% 10%;
+}
+
+/* NAV */
+
+.logo {
+    width: 50px;
+    height: 40%;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    padding-right: 85px; 
+}
+
+nav .menubtn {
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 8px 3px;
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+}
+
+nav ul li a {
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+    text-decoration: none;
+}
+
+li {
+    margin: 0 15px 0 15px;
+}
+
+/* RESPONSIVE NAV */
+
+.sideNav {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: hsl(36, 100%, 99%);
+    overflow-y: hidden;
+    transition: 0.3 ease-in;
+    padding-top: 60px;
+    display: none;
+    width: 280px;
+    padding: auto;
+    z-index: 1;
+}
+
+.sideNav a {
+    margin-top: 25px;
+    padding: 8px 8px 5px 20px;
+    display: block;
+    font-size: 18px;
+    color: hsl(240, 100%, 5%);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.sideNav a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.sideNav .closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 20px;
+    z-index: 2;
+}
+
+#top_div {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+/* WEB3 */
+
+.web3_intro {
+    height: 480px;
+    width: 700px;
+}
+
+.web3_img {
+    height: 300px;
+    width: 675px;
+    background-image: url(assets/images/image-web-3-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin-bottom: 30px;
+}
+
+.web3_text{
+    display: flex;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 800;
+    margin-right: 50px;
+}
+
+.web3{
+    flex-direction: column;
+    margin-right: -230px;
+}
+
+.web3_p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 45px;
+    color: hsl(236, 13%, 42%);
+    margin-top: 20px;
+    padding-right: 270px;
+}
+
+.web3_button {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 15px 35px;
+    letter-spacing: 2px;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    border-style: hidden;
+}
+
+/* NEW */
+
+#new_section {
+    background-color: hsl(240, 100%, 5%);
+    padding: 20px 20px;
+    margin-bottom: 60px;
+    width: 280px;
+    height: 510px;
+}
+
+.new_header {
+    font-size: 30px;
+    font-weight: 700;
+    color: hsl(35, 77%, 62%);
+    margin-bottom: 20px;
+}
+
+.new_subHeader {
+    color: hsl(36, 100%, 99%);
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.new_p {
+    color: hsl(233, 8%, 79%);
+    margin-bottom: 25px;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.new-section_line {
+    width: 100%;
+    height: 1px;
+    background: hsl(233, 8%, 79%);
+    margin: 35px 0 35px 0;
+}
+
+#bottom_div {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+/* TECH */
+
+.tech_news {
+    display: flex;
+    width: 350px;
+}
+
+.tech_img {
+    height: 115px;
+    width: 110px;
+}
+
+.tech_text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding-right: 40px;
+}
+
+.tech_number {
+    color: hsl(233, 8%, 79%);
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.tech_header {
+    font-size: 14px;
+    color: hsl(240, 100%, 5%);
+    margin-bottom: 10px;
+}
+
+.tech_p {
+    font-size: 12px;
+    color: hsl(236, 13%, 42%);
+    padding-right: 27px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+    /* ACTIVE STATE */
+
+nav ul li a:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+.web3_button:hover {
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
+
+.new_subHeader:hover {
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+.tech_header:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+    
+
+    /* MOBILE DESIGN FOR MAX-WIDTH: 375PX */
+    @media screen and (max-width: 375px) {
+
+        main {
+            margin: 4% 4%;
+        }
+
+        /* NAV */
+        
+        .logo {
+            height: 25px;
+            margin-top: 20px;
+        }
+
+
+        nav .menubtn {
+            display: flex;
+            border: none;
+            margin-top: 25px;
+            margin-left: 268px;
+            background-color: white;
+        }
+
+        nav .navLinks {
+            width: 0%;
+            overflow: hidden;
+        }
+
+        .sideNav {
+            display: block;
+            width: 0%;
+        }
+
+        #top_div {
+            flex-direction: column;
+        }
+
+        /* WEB3 */
+
+        .web3_intro {
+            flex-direction: column;
+            width: 345px;
+        }
+
+        .web3_img {
+            height: 300px;
+            width: 345px;
+            background-image: url(assets/images/image-web-3-mobile.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; 
+            position: relative;
+            margin-bottom: 15px;
+        } 
+
+        .web3_text {
+            flex-direction: column;
+            width: auto;
+        }
+
+        h1 {
+            font-size: 30px;
+            width: 345px;
+            padding-right: 60px;
+            color: hsl(240, 100%, 5%);
+            margin-right: 0;
+        }
+
+        .web3 {
+            padding-left: 0px;
+            width: 345px;
+        }
+
+        .web3_p {
+            width: 345px;
+            font-size: 15px;
+            color: hsl(236, 13%, 42%);
+            margin-bottom: 20px;
+            padding-right: 30px;
+        }
+
+        .web3_button {
+            padding: 15px 40px;
+            letter-spacing: 2px;
+            background-color: hsl(5, 85%, 63%);
+            color: hsl(36, 100%, 99%);
+            margin-bottom: 60px;
+            border-style: hidden;
+        }
+
+        /* NEW SECTION */
+
+        #new_section {
+            width: auto;
+            height: 550px;
+            background-color: hsl(240, 100%, 5%);
+            padding: 20px 27px;
+            margin-top: 170px;
+            margin-bottom: 30px;
+            margin-left: 0;
+        }
+
+        .new_header {
+            font-size: 25px;
+            color: hsl(35, 77%, 62%);
+            margin-bottom: 30px;
+        }
+
+        .new_subHeader {
+            font-size: 16px;
+            color: hsl(36, 100%, 99%);
+            margin-bottom: 10px;
+        }
+
+        .new_p {
+            color: hsl(233, 8%, 79%);
+            margin-bottom: 25px;
+            font-size: 14px;
+            padding-right: 30px;
+        }
+
+        .new-section_line {
+            width: 100%;
+            height: 1px;
+            background: hsl(233, 8%, 79%);
+            margin: 40px 0 40px 0;
+        }
+
+        #bottom_div{
+            flex-direction: column;
+        }
+
+        /* TECH */
+
+        .tech_news {
+            display: flex;
+            margin-bottom: 40px;
+            margin-right: 0;
+        }
+
+        .tech_img {
+            height: 120px ;
+            width: 110px ;
+        }
+
+        .tech_text {
+            display: flex;
+            flex-direction: column;
+            margin-left: 25px;
+        }
+
+        .tech_number {
+            color: hsl(233, 8%, 79%);
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .tech_header {
+            color: hsl(240, 100%, 5%);
+            margin-bottom: 10px;
+        }
+
+        .tech_p {
+            color: hsl(236, 13%, 42%);
+        }
+
+    }

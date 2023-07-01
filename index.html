@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | News homepage</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <main>
+
+    <nav>
+      <img class="logo" src="assets/images/logo.svg" alt="logo">
+      <button class="menubtn" onclick="openNav()"><img src="assets/images/icon-menu.svg" alt=""></button>
+      
+      <div class="navLinks">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+      </div>
+    </nav>  
+
+    <!-- reponsive side navbar -->
+    <div class="sideNav" id="sidenav">
+      <a href="#" class="closeBtn" onclick="closeNav()"><img src="assets/images/icon-menu-close.svg" alt=""></a>
+      <a href="#">Home</a>
+      <a href="#">New</a>
+      <a href="#">Popular</a>
+      <a href="#">Trending</a>
+      <a href="#">Categories</a>
+    </div>
+
+    <div id="top_div">
+     
+      <div class="web3_intro">
+
+        <div class="web3_img"></div>
+
+        <div class="web3_text">
+          <h1>The Bright Future of Web 3.0?</h1>
+
+          <div class="web3">
+            <p class="web3_p">
+              We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?
+            </p>
+
+            <button class="web3_button">READ MORE</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="new_section">
+        <h2 class="new_header">New</h2>   
+
+        <h3 class="new_subHeader">Hydrogen VS Electric Cars</h3>  
+        <p class="new_p">Will hydrogen-fueled cars ever catch up to EVs?</p> 
+        
+        <div class="new-section_line"></div>
+
+        <h3 class="new_subHeader">The Downsides of AI Artistry</h3>  
+        <p class="new_p">What are the possible adverse effects of on-demand AI image generation?</p>  
+
+        <div class="new-section_line"></div>
+
+        <h3 class="new_subHeader">Is VC Funding Drying Up?</h3>  
+        <p class="new_p">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>  
+      </div>
+
+    </div>
+
+    <div id="bottom_div">
+      <div class="tech_news">
+        <img class="tech_img" src="assets/images/image-retro-pcs.jpg" alt="">
+        <div class="tech_text">
+          <h3 class="tech_number">01</h3>  
+          <h4 class="tech_header">Reviving Retro PCs</h4>  
+          <p class="tech_p">What happens when old PCs are given modern upgrades?</p>  
+        </div>
+      </div>
+
+      <div class="tech_news">
+        <img class="tech_img" src="assets/images/image-top-laptops.jpg" alt="">
+        <div class="tech_text">
+          <h3 class="tech_number">02</h3>  
+          <h4 class="tech_header">Top 10 Laptops of 2022</h4>  
+          <p class="tech_p">Our best picks for various needs and budgets.</p>  
+        </div>  
+      </div>
+
+      <div class="tech_news">
+        <img class="tech_img" src="assets/images/image-gaming-growth.jpg" alt="">
+        <div class="tech_text">
+          <h3 class="tech_number">03</h3>  
+          <h4 class="tech_header">The Growth of Gaming</h4>  
+          <p class="tech_p">How the pandemic has sparked fresh opportunities.</p>  
+        </div>
+      </div>
+
+    </div>    
+    
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="https://github.com/Tomi-Stem">Tomi Ampitan(Stem)</a>.
+        </div>
+
+  </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
