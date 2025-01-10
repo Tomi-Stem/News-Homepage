@@ -265,10 +265,10 @@ nav ul li a:hover {
     
 
     /* MOBILE DESIGN FOR MAX-WIDTH: 375PX */
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 425px) {
 
         main {
-            margin: 4% 4%;
+            margin: 5% 10%;
         }
 
         /* NAV */
@@ -283,7 +283,7 @@ nav ul li a:hover {
             display: flex;
             border: none;
             margin-top: 25px;
-            margin-left: 268px;
+            margin-left: 265px;
             background-color: white;
         }
 
@@ -338,11 +338,10 @@ nav ul li a:hover {
         }
 
         .web3_p {
-            width: 345px;
             font-size: 15px;
             color: hsl(236, 13%, 42%);
             margin-bottom: 20px;
-            padding-right: 30px;
+            padding-right: 1px;
         }
 
         .web3_button {
@@ -412,7 +411,7 @@ nav ul li a:hover {
         .tech_text {
             display: flex;
             flex-direction: column;
-            margin-left: 25px;
+            margin-left: 23px;
         }
 
         .tech_number {
