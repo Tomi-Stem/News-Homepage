@@ -265,7 +265,7 @@ nav ul li a:hover {
     
 
     /* MOBILE DESIGN FOR MAX-WIDTH: 375PX */
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 430px) {
 
         main {
             margin: 5% 10%;
